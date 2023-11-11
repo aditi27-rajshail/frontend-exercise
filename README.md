@@ -13,7 +13,7 @@ This project is a React application built with TypeScript. It transforms the pro
 1. Clone the repository:
 
    ```
-   git clone https://github.com/<aditi27-rajshail>/frontend-exercise.git
+   git clone https://github.com/aditi27-rajshail/frontend-exercise.git
    ```
 
 2. Navigate into the project directory:
@@ -62,9 +62,9 @@ npm run coverage
 - Clear separation of logic and presentation layers.
 - Well-organized folder structure with descriptive commenting.
 - Static data maintained in constants
-- Adherence to ARIA standards and web accessibility [Lighthouse Snapshot Audit Report](https://github.com/aditi27-rajshail/frontend-exercise/blob/Lighthouse-AuditReport.pdf)
+- Adherence to ARIA standards and web accessibility [Lighthouse Snapshot Audit Report](https://github.com/aditi27-rajshail/frontend-exercise/blob/main/Lighthouse-AuditReport.pdf)
 
-## Bonus Points Accheived
+## Bonus Points Acheived
 
 - Smooth CSS transitions for button interactions and hover effects for imporoved user experience
 - Comprehensive unit test coverage with Vitest, achieving 98% coverage.
