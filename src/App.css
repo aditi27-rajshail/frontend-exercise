@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  scroll-behavior: smooth;
+  background: var(--grid-bg, #eef4fa);
+}
+
+@layer components {
+  .heading {
+    @apply font-semibold leading-[42px] text-textMain text-[32px];
+  }
+  .aside-title {
+    @apply text-textMenu text-[12px] font-bold leading-6 tracking-pxP12 uppercase;
+  }
+  .card-title {
+    @apply text-textMain text-[20px] font-semibold leading-[26px];
+  }
+  .card-sub-text {
+    @apply text-grey800 text-[16px] font-normal leading-6;
+  }
+  .accordion-detail-title {
+    @apply text-textMain text-[16px] font-semibold leading-px21;
+  }
+  .accordion-detail-sub-text {
+    @apply text-grey800 text-[14px] font-normal leading-px21;
+  }
+  .aside-container {
+    @apply border border-solid border-primary100 bg-white50 rounded-[8px]  hover:cursor-pointer xl:hover:easeout;
+  }
+  .aside-container-title {
+    @apply text-textMain text-[14px] font-semibold leading-px21;
+  }
+  .aside-container-sub-text {
+    @apply text-grey800 text-[12px] font-normal leading-px18;
+  }
+  .btn-text {
+    @apply text-white100 text-[14px] font-semibold leading-px18 text-center uppercase;
+  }
+  .progress-text {
+    @apply text-grey400 font-normal text-[14px] leading-px21 tracking-pxN14 uppercase;
+  }
+  .alert-text {
+    @apply text-grey800 text-[12px] font-normal leading-[14px];
+  }
+  .chip {
+    @apply text-info600 rounded-[4px] bg-info50 text-[12px] font-[500] leading-px18 text-center;
+  }
+  .disabled {
+    @apply pointer-events-none opacity-50;
+  }
+  .easeout {
+    @apply transition ease-in-out delay-150  hover:scale-105 duration-100;
+  }
+}
+
+.card {
+  /* Container drop shadow */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out;
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.5s ease-out forwards;
+}

@@ -1,0 +1,203 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Accordion Component > matches the snapshot when closed 1`] = `
+<div>
+  <div
+    class="bg-white100 rounded-lg card flex flex-col items-start mb-4 w-full xl:w-[1011px] p-4 "
+  >
+    <div
+      class="flex justify-between w-full items-start xl:items-center"
+    >
+      <div
+        class="flex items-center"
+      >
+        <img
+          alt="取引の情報を入力しましょう"
+          class="mr-2"
+          height="26"
+          src="/src/assets/user-circle-gear-duotone.svg"
+          width="26"
+        />
+        <h3
+          class="card-title"
+        >
+          取引の情報を入力しましょう
+        </h3>
+      </div>
+      <div
+        class="flex items-center space-x-2"
+      >
+        <div
+          class="hidden sm:block"
+        >
+          <div
+            class="flex items-center"
+          >
+            <div
+              class="h-[6px] w-[60px] bg-neutral500 rounded overflow-hidden mr-2"
+            >
+              <div
+                class="bg-green500  transition-all duration-300 h-full"
+                style="width: 0%;"
+              />
+            </div>
+            <span
+              class="progress-text"
+              data-testid="progress-text"
+            >
+              0
+              /
+              2
+              ステップ
+            </span>
+          </div>
+        </div>
+        <button
+          aria-expanded="false"
+          aria-label="Expand section"
+          class="transform transition-transform w-[16px] h-[16px] flex items-center justify-center"
+        >
+          <img
+            alt="Toggle accordion"
+            class="transition-transform duration-500 rotate-0"
+            height="16"
+            src="/src/assets/caret-up-bold.svg"
+            width="16"
+          />
+        </button>
+      </div>
+    </div>
+    <p
+      class="cardSubText my-4 sm:my-4"
+    >
+      仮想通貨の損益計算には過去すべての取引履歴が必要になります。
+    </p>
+    <div
+      class="w-full mb-2 sm:hidden"
+    >
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="h-[6px] w-[60px] bg-neutral500 rounded overflow-hidden mr-2"
+        >
+          <div
+            class="bg-green500  transition-all duration-300 h-full"
+            style="width: 0%;"
+          />
+        </div>
+        <span
+          class="progress-text"
+          data-testid="progress-text"
+        >
+          0
+          /
+          2
+          ステップ
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion Component > matches the snapshot when opened 1`] = `
+<div>
+  <div
+    class="bg-white100 rounded-lg card flex flex-col items-start mb-4 w-full xl:w-[1011px] p-4 "
+  >
+    <div
+      class="flex justify-between w-full items-start xl:items-center"
+    >
+      <div
+        class="flex items-center"
+      >
+        <img
+          alt="取引の情報を入力しましょう"
+          class="mr-2"
+          height="26"
+          src="/src/assets/user-circle-gear-duotone.svg"
+          width="26"
+        />
+        <h3
+          class="card-title"
+        >
+          取引の情報を入力しましょう
+        </h3>
+      </div>
+      <div
+        class="flex items-center space-x-2"
+      >
+        <div
+          class="hidden sm:block"
+        >
+          <div
+            class="flex items-center"
+          >
+            <div
+              class="h-[6px] w-[60px] bg-neutral500 rounded overflow-hidden mr-2"
+            >
+              <div
+                class="bg-green500  transition-all duration-300 h-full"
+                style="width: 0%;"
+              />
+            </div>
+            <span
+              class="progress-text"
+              data-testid="progress-text"
+            >
+              0
+              /
+              2
+              ステップ
+            </span>
+          </div>
+        </div>
+        <button
+          aria-expanded="false"
+          aria-label="Expand section"
+          class="transform transition-transform w-[16px] h-[16px] flex items-center justify-center"
+        >
+          <img
+            alt="Toggle accordion"
+            class="transition-transform duration-500 rotate-0"
+            height="16"
+            src="/src/assets/caret-up-bold.svg"
+            width="16"
+          />
+        </button>
+      </div>
+    </div>
+    <p
+      class="cardSubText my-4 sm:my-4"
+    >
+      仮想通貨の損益計算には過去すべての取引履歴が必要になります。
+    </p>
+    <div
+      class="w-full mb-2 sm:hidden"
+    >
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="h-[6px] w-[60px] bg-neutral500 rounded overflow-hidden mr-2"
+        >
+          <div
+            class="bg-green500  transition-all duration-300 h-full"
+            style="width: 0%;"
+          />
+        </div>
+        <span
+          class="progress-text"
+          data-testid="progress-text"
+        >
+          0
+          /
+          2
+          ステップ
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

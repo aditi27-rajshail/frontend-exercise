@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AsideContainer Component > matches the snapshot 1`] = `
+<div
+  class="aside-container flex flex-col items-start w-full xl:w-[189px] p-[16px] mb-[16px]"
+  data-testid="aside-container"
+>
+  <p
+    class="aside-container-title"
+  >
+    年度初めの残高入力
+  </p>
+  <p
+    class="aside-container-sub-text "
+  >
+    過去の計算結果を引き継いで計算する場合はこちらをクリックしてください。
+  </p>
+</div>
+`;

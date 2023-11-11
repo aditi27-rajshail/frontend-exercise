@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Accordion Details Component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="border border-solid border-neutral500 mt-4 p-4 rounded-lg"
+  >
+    <div
+      class="md:flex lg:gap-[77px] md:gap-[38px]"
+    >
+      <div
+        class="flex items-start"
+      >
+        <img
+          alt="circle dashed"
+          class=" mr-[8px] cursor-pointer easeout"
+          height="24"
+          src="/src/assets/circle-dashed.svg"
+          width="24"
+        />
+        <div>
+          <div
+            class="false"
+          >
+            <h4
+              class="accordion-detail-title mb-2"
+            >
+              取引所 / ブロックチェーンを選択しましょう
+            </h4>
+            <span
+              class="chip text-info600 h-[20px] py-0 px-2"
+            >
+              13 取引所/ブロックチェーン選択済み
+            </span>
+            <p
+              class="accordion-detail-sub-text mt-2"
+            >
+              取引をしたことのある取引所 / ブロックチェーンをすべて選択してください。対応していない取引所や取引所外での取引経験がある場合は「カスタム」を選択してください。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-center justify-center mt-3 md:mt-0"
+      >
+        <button
+          class="false easeout flex h-[32px] w-[104px] p-[12px] items-center justify-center bg-primary500 rounded-[4px]"
+        >
+          <p
+            class="btn-text mr-2"
+          >
+             
+            選択する
+          </p>
+          <img
+            alt="Right Arrow"
+            height="16"
+            src="/src/assets/arrow-right-bold.svg"
+            width="16"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
